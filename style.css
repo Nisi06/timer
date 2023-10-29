@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_1280.jpg);
+}
+
+.nav-bar {
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+}
+
+li {
+    display: inline-block;   
+}
+
+.nav-link a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: bisque;
+    font-weight: bold;
+}
+
+.nav-link a:hover {
+    background-color: bisque;
+    border-radius: 0.25rem;
+    color: rgb(40, 40, 40);
+}
+
+.main {
+    text-align: center;
+    color: bisque;
+    margin-top: 6rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+p a {
+    text-decoration: none;
+    color: bisque;
+}
+
+p a:hover {
+    background-color: bisque;
+    color: rgb(40, 40, 40);
+    border-radius: 0.25rem;
+    padding: 0 0.2rem;
+}
